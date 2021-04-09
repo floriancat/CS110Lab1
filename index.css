@@ -7,7 +7,8 @@ body {
 
 .flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start !important;
 }
 
 .container {
@@ -50,8 +51,21 @@ body {
   text-decoration: underline;
 }
 
+.tweetName {
+  margin-left: 5px;
+  font-size: 0.95em;
+  font-weight: bold !important;
+  text-decoration:none !important;
+  margin-bottom: 0px;
+}
+
 .user-handle {
   color: #828282;
+}
+
+.tweetHandle {
+  color: #828282;
+  font-weight: normal;
 }
 
 .user-stats {
@@ -62,8 +76,38 @@ body {
   flex-grow: 0.90;
 }
 
+.flexTweet {
+  display: flex;
+  flex-direction:row;
+  align-content: center;
+  padding: 15px;
+  padding-bottom: 0px;
+}
 .tweets {
-  background-color: orange;
+  min-height: 51px !important;
+  border-bottom: 1px solid #e6ecf0;
+}
+.tweetPicContainer {
+  height:inherit;
+  width:55px;
+  /* border:1px solid black; */
+}
+.tweetContentContainer {
+  width: 85%;
+  height:auto;
+  /* border:1px solid grey; */
+}
+
+.tweetPic {
+  border-radius: 50%;
+  width:48px;
+  height:48px;
+  /* margin-left: 5px; */
+}
+
+.tweetText {
+  margin-left: 5px;
+  font-size: .85em;
 }
 
 .leftSide {
