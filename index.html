@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Twitter</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
 
       <div class="collapse navbar-collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarNav">
         <ul class="navbar-nav">
@@ -26,6 +25,8 @@
         </ul>
       </div>
 
+      <a href="#centerFeed" style="position: absolute; transform: translateY(200%); display: none;"> Jump to Twitter feed </a>
+
       <div class="mx-auto order-2"> 
         <a> <img src="images/twitter-logo.png" width="30" height="25"> </a>
       </div>
@@ -43,17 +44,17 @@
 
     <div class="flex container">
       <div class="side-boxes outerSquares">
-        <img src="./images/ratatouille-banner.png" class="banner">
-        <img src="./images/ratatouille.jpg" class="profile-picture">
+        <img src="./images/ratatouille-banner.png" class="banner" alt="Remy profile banner">
+        <img src="./images/ratatouille.jpg" class="profile-picture" alt="Remy profile picture">
           <div class="user-info"><div class="user-name">Remy</div><div class="user-handle">@remy</div></div>
         <div class="flex user-stats">Tweets Following Followers</div>
       </div>
 
-      <div class="side-boxes centerFeed">
+      <div class="side-boxes centerFeed" role="main">
         <div>
           <div class="tweets flexTweet">
             <div class="tweetPicContainer">
-              <img class="tweetPic" src="images/ratatouille.jpg">
+              <img class="tweetPic" src="images/ratatouille.jpg" alt="Remy profile picture">
             </div>
                 <div class="tweetContentContainer"> 
                     <p class="user-name tweetName">Remy <span class="tweetHandle">@remy Nov 16</span> </p> 
@@ -63,7 +64,7 @@
 
             <div class="tweets flexTweet">
               <div class="tweetPicContainer">
-                <img class="tweetPic" src="images/ratatouille.jpg">
+                <img class="tweetPic" src="images/ratatouille.jpg" alt="Remy profile picture">
               </div>
                   <div class="tweetContentContainer"> 
                       <p class="user-name tweetName">Remy <span class="tweetHandle">@remy Nov 16</span> </p> 
@@ -73,7 +74,7 @@
 
             <div class="tweets flexTweet">
               <div class="tweetPicContainer">
-                <img class="tweetPic" src="images/ratatouille.jpg">
+                <img class="tweetPic" src="images/ratatouille.jpg" alt="Remy profile picture">
               </div>
                   <div class="tweetContentContainer"> 
                       <p class="user-name tweetName">Remy <span class="tweetHandle">@remy Nov 16</span> </p> 
@@ -83,7 +84,7 @@
 
             <div class="tweets flexTweet">
               <div class="tweetPicContainer">
-                <img class="tweetPic" src="images/ratatouille.jpg">
+                <img class="tweetPic" src="images/ratatouille.jpg" alt="Remy profile picture">
               </div>
                   <div class="tweetContentContainer"> 
                       <p class="user-name tweetName">Remy <span class="tweetHandle">@remy Nov 16</span> </p> 
@@ -93,7 +94,7 @@
 
             <div class="tweets flexTweet"> 
                 <div class="tweetPicContainer">
-                  <img class="tweetPic" src="images/ratatouille.jpg">
+                  <img class="tweetPic" src="images/ratatouille.jpg" alt="Remy profile picture">
                 </div>
                     <div class="tweetContentContainer"> 
                         <p class="user-name tweetName">Remy <span class="tweetHandle">@remy Nov 16</span> </p> 
