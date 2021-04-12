@@ -51,6 +51,11 @@ body {
   text-decoration: underline;
 }
 
+.colored-stats {
+  color: #00aced;
+  line-height: 35px;
+}
+
 .tweetName {
   margin-left: 5px;
   font-size: 0.95em;
@@ -61,6 +66,7 @@ body {
 
 .user-handle {
   color: #828282;
+  font-weight: normal;
 }
 
 .tweetHandle {
@@ -70,6 +76,11 @@ body {
 
 .user-stats {
   font-weight: bold;
+  color: #7c7c7c;
+  justify-content: space-evenly;
+  position: relative;
+  top: -35px;
+  height: 50px;
 }
 
 .centerFeed {
@@ -156,6 +167,47 @@ body {
   z-index: 100;
 }
 
+.suggestion-header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.flex-suggestions {
+  display: flex;
+  height: 90px;
+}
+
+.suggestion-info {
+  padding-left: 15px;
+  height: 60px;
+  padding-top: 15px;
+}
+
+.follow-button {
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid #00aced;
+  color: #00aced;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.follow-button:hover {
+  background-color: #00aced;
+  color: white;
+}
+
+.content-right {
+  padding: 15px;
+}
+
+@media (max-width: 1200px) {
+  .dynamic-width {
+    display: none;
+  }
+}
 
 
 /* TODO: Create CSS for your Twitter Mockup */

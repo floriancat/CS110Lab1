@@ -47,7 +47,11 @@
         <img src="./images/ratatouille-banner.png" class="banner" alt="Remy profile banner">
         <img src="./images/ratatouille.jpg" class="profile-picture" alt="Remy profile picture">
           <div class="user-info"><div class="user-name">Remy</div><div class="user-handle">@remy</div></div>
-        <div class="flex user-stats">Tweets Following Followers</div>
+        <div class="flex user-stats">
+          <p>Tweets<span class="colored-stats"><br>5049</span></p>
+          <p>Following<span class="colored-stats"><br>324</span></p>
+          <p>Followers<span class="colored-stats"><br>809</span></p>
+        </div>
       </div>
 
       <div class="side-boxes centerFeed" role="main">
@@ -104,8 +108,24 @@
         </div>
       </div>
 
-      <div class="side-boxes outerSquares"> 
-        right
+      <div class="side-boxes outerSquares dynamic-width content-right"> 
+        <div class="suggestion-header">Who To Follow</div>
+        <div class="flex-suggestions">
+          <img src="./images/linguini.png" class="profile-picture" style="left: 0; top: 15px;"alt="Linguini profile picture">
+          <div class="suggestion-info" style="font-weight: bold;">
+            Linguini <span class="user-handle">@linguini</span>
+            <div><button type="button" class="follow-button">Follow</button></div>
+          </div>
+        </div>
+        <hr>
+        <div class="flex-suggestions">
+          <img src="./images/ratatouille.jpg" class="profile-picture" style="left: 0; top: 15px;"alt="Linguini profile picture">
+          <div class="suggestion-info" style="font-weight: bold;">
+            CS110 TA <span class="user-handle">@cs</span>
+            <div><button type="button" class="follow-button">Follow</button></div>
+          </div>
+        </div>
+        <hr>
       </div>
     </div>
 
